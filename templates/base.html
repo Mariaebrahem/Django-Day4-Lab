@@ -1,0 +1,8 @@
+{% load static %}
+<link rel="stylesheet" href="{% static 'css/style.css' %}">
+
+<!-- <img src="{% static 'image/l'%}"> -->
+{% include 'parts/navbar.html' %}
+{% block content %}{% endblock content %}
+
+{% include 'parts/footer.html' %}
